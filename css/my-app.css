@@ -1,0 +1,23 @@
+.bg-panel{
+	background-image: url(../img/bg-panel.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	margin: 0;
+}
+.bg-panel ul{
+	list-style: none;
+}
+.no-margin-top{
+	margin-top: 0;
+}
+
+.swiper-container{
+	width: 100%;
+	height: auto;
+}
+.swiper-slide{
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
