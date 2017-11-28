@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="theme-black">
+<body>
 	
 	
 	<div class="panel-overlay"></div>
@@ -51,7 +51,7 @@
 	<div class="views">
 		<div class="view view-main">
 			
-			<div class="pages navbar-fixed">
+			<div class="pages navbar-fixed ">
 				<div class="page" data-page="index">
 					
 					<div class="navbar">
@@ -65,6 +65,18 @@
 						</div>
 					</div><!-- navbar-->
 					
+					
+						<form class="searchbar searchbar-init" data-search-list=".search" 
+						data-search-in=".item-content" >
+							<div class="searchbar-input">
+								<input type="search" placeholder="buscar aquì">
+								<a href="#" class="searchbar-clear"></a>
+							</div>
+							<a href="#" class="searchbar-cancel"></a>
+						</form>
+						<div class="searchbar-overlay"></div>
+					
+				
 					<div class="page-content">
 						
 						<div class="content-block-title">
@@ -81,7 +93,7 @@
 							</div>
 						</div>
 						
-						<section class="content-block">
+						<section class="content-block search">
 							<div class="list-block">
 								<ul>
 									<li>
@@ -123,6 +135,17 @@
 											</div>
 											<div class="item-inner">
 												Enlace a Slide
+											</div>
+										</div>
+										</a>
+									</li>
+									<li><a href="tabbar.html" class="item-link">
+										<div class="item-content">
+											<div class="item-media">
+												<i class="material-icons">link</i>
+											</div>
+											<div class="item-inner">
+												Enlace a TabBar
 											</div>
 										</div>
 										</a>
@@ -172,7 +195,11 @@
 							</article>
 						</section>
 						
-						<div class="speed-dial">
+						
+					  	
+					</div> <!-- page-content -->
+					
+					<div class="speed-dial">
 							<!-- FAB inside will open Speed Dial actions -->
 							<a href="#" class="floating-button">
 							  <!-- First icon is visible when Speed Dial actions are closed -->
@@ -196,9 +223,6 @@
 							  </a>
 							</div>
 					  	</div>
-					  	
-					</div> <!-- page-content -->
-					
 				</div>
 				
 			</div>
